@@ -157,7 +157,7 @@ If you haven't already, download and install XAMPP from the official website: [X
 
 - Open a web browser and navigate to (http://localhost/phpmyadmin/).
 - Click on "Databases" in the top menu.
-- Enter a database name, such as "hngx_task2," and click "Create." This database will be used by your PHP project.
+- Enter a database name, such as "hngx_task2," and click "Create."
 
 
 ### Step 4: Create a Project Directory
@@ -174,12 +174,11 @@ If you haven't already, download and install XAMPP from the official website: [X
 
 - In your index.php file, you've specified database connection details at the beginning of the code. Ensure that these details match your XAMPP MySQL configuration. In most cases, the default XAMPP MySQL configuration uses:
 
-> <pre>
-Host: 'localhost'
-Database name: 'hngx_task2'
-User: 'root'
-Password: '' (empty)
-</pre>
+>
+    Host: 'localhost'
+    Database name: 'hngx_task2'
+    User: 'root'
+    Password: '' (empty)
 
 If you've changed any of these settings in XAMPP, update them in your PHP code accordingly.
 
