@@ -150,6 +150,8 @@ To remove a person from the database. A **DELETE** request to the (http://hngx-b
 
 ![UML Task2](http://hngx-backend.lgcinsuranceportal.com/api_uml_digram.png)
 
-<img src="http://hngx-backend.lgcinsuranceportal.com/api_uml_digram.png" width="100%" height="600px" />
+<p>
+<img src="https://hngx-backend.lgcinsuranceportal.com/api_uml_digram.png" width="100%" height="600px" />
+</p>
 
 
