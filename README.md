@@ -197,7 +197,7 @@ If you've changed any of these settings in XAMPP, update them in **index.php** c
 
 - Enter the Request URL:
     - In the URL field, enter the API endpoint URL. For example, if you want to test the "Create" operation, use (http://localhost/backendtask/index.php/api) for the URL.
-    
+
 - Add Request Body (For POST and PUT):
     - If you're testing a POST or PUT request, go to the "Body" tab and enter the JSON data in the request body. 
     For example:
@@ -231,3 +231,9 @@ If you encounter any issues, check the following:
 <img src="https://hngx-backend.lgcinsuranceportal.com/api_uml_digram.png" width="100%" height="600px" />
 </p> -->
 
+
+# About the Developer
+
+**Name: Rilwanu Isyaku**
+**Email: <a href="mailto:ridwanishaq2020@gmail.com">ridwanishaq2020@gmail.com</a>**
+**Role: Backend Engineer (PHP/Laravel)***

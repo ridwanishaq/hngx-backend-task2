@@ -180,20 +180,24 @@ If you haven't already, download and install XAMPP from the official website: [X
     User: 'root'
     Password: '' (empty)
 
-If you've changed any of these settings in XAMPP, update them in your PHP code accordingly.
+If you've changed any of these settings in XAMPP, update them in **index.php** code accordingly.
 
-### Step 7: Test Your API Using Postman
+### Step 7: Test the API Using Postman
 
 - Open Postman: If you don't have Postman installed, you can download it from the official website: [Postman Download](https://www.postman.com/downloads/).
 - Create a New Request: 
-    -- Launch Postman. 
-    -- Click on the "New" button in the top-left corner to create a new request.
+    - Launch Postman. 
+    - Click on the "New" button in the top-left corner to create a new request.
+
 - Name Your Request:
-    -- Give your request a name to identify it easily, such as "Create Person."
+    - Give your request a name to identify it easily, such as "Create Person."
+
 - Select the Request Type:
-    -- Use the dropdown next to the request name to select the HTTP request type you want to test (e.g., POST, GET, PUT, DELETE).
+    - Use the dropdown next to the request name to select the HTTP request type you want to test (e.g., POST, GET, PUT, DELETE).
+
 - Enter the Request URL:
-    -- In the URL field, enter the API endpoint URL. For example, if you want to test the "Create" operation, use (http://localhost/backendtask/index.php/api) for the URL.
+    - In the URL field, enter the API endpoint URL. For example, if you want to test the "Create" operation, use (http://localhost/backendtask/index.php/api) for the URL.
+
 - Add Request Body (For POST and PUT):
     - If you're testing a POST or PUT request, go to the "Body" tab and enter the JSON data in the request body. 
     For example:
@@ -227,3 +231,9 @@ If you encounter any issues, check the following:
 <img src="https://hngx-backend.lgcinsuranceportal.com/api_uml_digram.png" width="100%" height="600px" />
 </p> -->
 
+
+# About the Developer
+
+**Name: Rilwanu Isyaku**
+**Email: <a href="mailto:ridwanishaq2020@gmail.com">ridwanishaq2020@gmail.com</a>**
+**Role: Backend Engineer (PHP/Laravel)***
