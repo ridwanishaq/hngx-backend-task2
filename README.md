@@ -149,8 +149,8 @@ To remove a person from the database. A **DELETE** request to the (https://hngx-
 # UML Diagram
 
 ![UML Task2](https://hngx-backend.lgcinsuranceportal.com/api_uml_digram.png)
-
+<!-- 
 <p>
 <img src="https://hngx-backend.lgcinsuranceportal.com/api_uml_digram.png" width="100%" height="600px" />
-</p>
+</p> -->
 
