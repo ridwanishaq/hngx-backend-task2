@@ -16,6 +16,12 @@ $db_name = 'hngx_task2';
 $db_user = 'root';
 $db_pass = '';
 
+// Live
+// $db_host = 'localhost';
+// $db_name = 'lgcinsur_hngx_backend_db';
+// $db_user = 'lgcinsur_root';
+// $db_pass = '38982581@Insur';
+
 try {
     $db = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pass);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
