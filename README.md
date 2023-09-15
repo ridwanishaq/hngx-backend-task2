@@ -3,9 +3,9 @@
 The application serves as an API for managing information about persons. It exposes several endpoints to perform CRUD operations on the data. The supported endpoints are as follows:
 
 ## Create: 
-To add a new person to the database. This is achieved by sending a **POST** request to the (http://hngx-backend.lgcinsuranceportal.com/index.php/api) endpoint with JSON data containing the person's name, age, and email.
+To add a new person to the database. This is achieved by sending a **POST** request to the (https://hngx-backend.lgcinsuranceportal.com/index.php/api) endpoint with JSON data containing the person's name, age, and email.
 
-> POST http://hngx-backend.lgcinsuranceportal.com/index.php/api <br>
+> POST https://hngx-backend.lgcinsuranceportal.com/index.php/api <br>
 Content-Type: application/json
 {
     "name":"Rilwanu Isyaku",
@@ -21,10 +21,10 @@ Content-Type: application/json
 ## Read: 
 To fetch details of a person. This can be done in two ways:
 
-1. Sending a **GET** request to the (http://hngx-backend.lgcinsuranceportal.com/index.php/api) endpoint retrieves details of all persons in the database.
-2. Sending a **GET** request to the (http://hngx-backend.lgcinsuranceportal.com/index.php/api/1) /:id endpoint (where :id is the specific person's ID) retrieves details of a particular person.
+1. Sending a **GET** request to the (https://hngx-backend.lgcinsuranceportal.com/index.php/api) endpoint retrieves details of all persons in the database.
+2. Sending a **GET** request to the (https://hngx-backend.lgcinsuranceportal.com/index.php/api/1) /:id endpoint (where :id is the specific person's ID) retrieves details of a particular person.
 
-> POST http://hngx-backend.lgcinsuranceportal.com/index.php/api <br>
+> POST https://hngx-backend.lgcinsuranceportal.com/index.php/api <br>
  Content-Type: application/json`
 
  ### Response:
@@ -107,9 +107,9 @@ To fetch details of a person. This can be done in two ways:
 
 
 ## Update: 
-To modify details of an existing person. This is accomplished by sending a **PUT** request to the (http://hngx-backend.lgcinsuranceportal.com/index.php/api/1) - :id endpoint (where :id is the specific person's ID) with JSON data containing the updated information.
+To modify details of an existing person. This is accomplished by sending a **PUT** request to the (https://hngx-backend.lgcinsuranceportal.com/index.php/api/1) - :id endpoint (where :id is the specific person's ID) with JSON data containing the updated information.
 
-> PUT http://hngx-backend.lgcinsuranceportal.com/index.php/api/1 <br>
+> PUT https://hngx-backend.lgcinsuranceportal.com/index.php/api/1 <br>
 Content-Type: application/json
 <pre>
 {
@@ -127,9 +127,9 @@ Content-Type: application/json
 </pre>
 
 ## Delete: 
-To remove a person from the database. A **DELETE** request to the (http://hngx-backend.lgcinsuranceportal.com/index.php/api/1) - :id endpoint (where :id is the specific person's ID) deletes the corresponding person's record.
+To remove a person from the database. A **DELETE** request to the (https://hngx-backend.lgcinsuranceportal.com/index.php/api/1) - :id endpoint (where :id is the specific person's ID) deletes the corresponding person's record.
 
-> DELETE http://hngx-backend.lgcinsuranceportal.com/index.php/api/1 <br>
+> DELETE https://hngx-backend.lgcinsuranceportal.com/index.php/api/1 <br>
  Content-Type: application/json
 <br>
 
@@ -148,7 +148,7 @@ To remove a person from the database. A **DELETE** request to the (http://hngx-b
 
 # UML Diagram
 
-![UML Task2](http://hngx-backend.lgcinsuranceportal.com/api_uml_digram.png)
+![UML Task2](https://hngx-backend.lgcinsuranceportal.com/api_uml_digram.png)
 
 <p>
 <img src="https://hngx-backend.lgcinsuranceportal.com/api_uml_digram.png" width="100%" height="600px" />
