@@ -6,7 +6,9 @@
  * Student Name: Rilwanu Isyaku
  * GitHub Profile: https://github.com/ridwanishaq
  * Date: 14-September-2023
- * 
+ * Email: ridwanishaq2020@gmail.com
+ * Track: Backend (PHP Programmming)
+ * Task: 2
  * 
  */
 
@@ -16,11 +18,6 @@ $db_name = 'hngx_task2';
 $db_user = 'root';
 $db_pass = '';
 
-// Live
-// $db_host = 'localhost';
-// $db_name = 'lgcinsur_hngx_backend_db';
-// $db_user = 'lgcinsur_root';
-// $db_pass = '38982581@Insur';
 
 try {
     $db = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pass);
@@ -30,19 +27,31 @@ try {
 }
 
 // Set response content type to JSON
-// header("Content-Type: application/json");
+header("Content-Type: application/json");
 
 // Get the request method and path
 $request_method = $_SERVER['REQUEST_METHOD'];
 $request_path = $_SERVER['REQUEST_URI'];
 
-// Extract the user_id from the request URI
+// Extract the route parameters from the request URI
 $parts = explode('/', $request_path);
 
-// ENDPOINT CHECK:
-$endpoint = isset($parts[4]) ? $parts[4] : null;
-$userIdEndpoint = isset($parts[5]) ? $parts[5] : null;
+/**
+ * ENDPOINT CHECK:
+ * 
+ * Local:
+ * 4 = /api                 e.g: http://localhost/backendtask/index.php/api
+ * 5 = /api/:id - ID        e.g: http://localhost/backendtask/index.php/api/1
+ * 
+ * Live:
+ * 2 = /api                 e.g: https://mydomain.com/index.php/api
+ * 3 = /api/:id - ID        e.g: https://mydomain.com/index.php/api/1
+ * 
+ */
+$endpoint = isset($parts[4]) ? $parts[4] : null;                // - /api
+$userIdEndpoint = isset($parts[5]) ? $parts[5] : null;          // - /api/:id
 
+// Validate user ID
 $checkUserId = is_numeric($userIdEndpoint) ? (int)$userIdEndpoint : null;
 
 // Create Person
