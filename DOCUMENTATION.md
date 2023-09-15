@@ -147,7 +147,7 @@ To remove a person from the database. A **DELETE** request to the (https://hngx-
 If you haven't already, download and install XAMPP from the official website: [XAMPP Download](https://www.apachefriends.org/index.html).
 
 
-## Step 2: Start XAMPP Services
+### Step 2: Start XAMPP Services
 
 - Launch XAMPP Control Panel (usually found in the XAMPP installation directory).
 - Start the "Apache" and "MySQL" services by clicking the "Start" buttons next to them.
@@ -174,11 +174,12 @@ If you haven't already, download and install XAMPP from the official website: [X
 
 - In your index.php file, you've specified database connection details at the beginning of the code. Ensure that these details match your XAMPP MySQL configuration. In most cases, the default XAMPP MySQL configuration uses:
 
->
+> <pre>
 Host: 'localhost'
 Database name: 'hngx_task2'
 User: 'root'
 Password: '' (empty)
+</pre>
 
 If you've changed any of these settings in XAMPP, update them in your PHP code accordingly.
 
