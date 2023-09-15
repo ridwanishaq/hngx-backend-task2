@@ -7,11 +7,13 @@ To add a new person to the database. This is achieved by sending a **POST** requ
 
 > POST https://hngx-backend.lgcinsuranceportal.com/index.php/api <br>
 Content-Type: application/json
+> <pre>
 {
     "name":"Rilwanu Isyaku",
     "age":"18",
     "email":"rilwanu@engineer.com"
 }
+</pre>
 
 ### Response:
 >{ <br>
@@ -234,6 +236,8 @@ If you encounter any issues, check the following:
 
 # About the Developer
 
+<pre>
 **Name: Rilwanu Isyaku**
 **Email: <a href="mailto:ridwanishaq2020@gmail.com">ridwanishaq2020@gmail.com</a>**
-**Role: Backend Engineer (PHP/Laravel)***
+**Role: Backend Engineer (PHP/Laravel)**
+</pre>
