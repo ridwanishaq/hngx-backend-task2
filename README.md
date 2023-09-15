@@ -5,7 +5,7 @@ The application serves as an API for managing information about persons. It expo
 ## Create: 
 To add a new person to the database. This is achieved by sending a **POST** request to the (http://hngx-backend.lgcinsuranceportal.com/index.php/api) endpoint with JSON data containing the person's name, age, and email.
 
-> POST http://hngx-backend.lgcinsuranceportal.com/index.php/api
+: POST http://hngx-backend.lgcinsuranceportal.com/index.php/api <br>
 Content-Type: application/json
 {
     "name":"Rilwanu Isyaku",
