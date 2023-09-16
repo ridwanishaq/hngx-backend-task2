@@ -238,7 +238,7 @@ If you encounter any issues, check the following:
 # About the Developer
 
 <pre>
-**Name: Rilwanu Isyaku**
-**Email: <a href="mailto:ridwanishaq2020@gmail.com">ridwanishaq2020@gmail.com</a>**
-**Role: Backend Engineer (PHP/Laravel)**
+Name: Rilwanu Isyaku
+Email: <a href="mailto:ridwanishaq2020@gmail.com">ridwanishaq2020@gmail.com</a>
+Role: Backend Engineer (PHP/Laravel)
 </pre>
