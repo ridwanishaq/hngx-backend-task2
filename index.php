@@ -48,8 +48,8 @@ $parts = explode('/', $request_path);
  * 3 = /api/:id - ID        e.g: https://mydomain.com/index.php/api/1
  * 
  */
-$endpoint = isset($parts[4]) ? $parts[4] : null;                // - /api
-$userIdEndpoint = isset($parts[5]) ? $parts[5] : null;          // - /api/:id
+$endpoint = isset($parts[3]) ? $parts[3] : null;                // - /api
+$userIdEndpoint = isset($parts[4]) ? $parts[4] : null;          // - /api/:id
 
 // Validate user ID
 $checkUserId = is_numeric($userIdEndpoint) ? (int)$userIdEndpoint : null;

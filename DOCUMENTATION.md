@@ -27,7 +27,7 @@ To fetch details of a person. This can be done in two ways:
 1. Sending a **GET** request to the (https://hngx-backend.lgcinsuranceportal.com/index.php/api) endpoint retrieves details of all persons in the database.
 2. Sending a **GET** request to the (https://hngx-backend.lgcinsuranceportal.com/index.php/api/1) /:id endpoint (where :id is the specific person's ID) retrieves details of a particular person.
 
-> POST https://hngx-backend.lgcinsuranceportal.com/index.php/api <br>
+> GET https://hngx-backend.lgcinsuranceportal.com/index.php/api <br>
  Content-Type: application/json`
 
  ### Response:
