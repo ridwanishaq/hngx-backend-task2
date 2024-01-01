@@ -240,5 +240,5 @@ If you encounter any issues, check the following:
 <pre>
 Name: Rilwanu Isyaku
 Email: <a href="mailto:ridwanishaq2020@gmail.com">ridwanishaq2020@gmail.com</a>
-Role: Backend Engineer (PHP/Laravel)
+Role: Backend Engineer
 </pre>
