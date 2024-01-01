@@ -3,6 +3,7 @@
 /**
  * Task Name: backend-stage-two-task
  * Programming Lanuage used: PHP
+ * Database: MySQL
  * Student Name: Rilwanu Isyaku
  * GitHub Profile: https://github.com/ridwanishaq
  * Date: 14-September-2023
