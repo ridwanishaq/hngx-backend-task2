@@ -14,9 +14,9 @@
 
 // Database configuration
 $db_host = 'localhost';
-$db_name = 'hngx_task2';
-$db_user = 'root';
-$db_pass = 'password';
+$db_name = 'db_name_here';
+$db_user = 'db_username_here';
+$db_pass = 'db_password';
 
 
 try {
