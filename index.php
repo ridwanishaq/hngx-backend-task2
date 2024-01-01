@@ -16,7 +16,7 @@
 $db_host = 'localhost';
 $db_name = 'hngx_task2';
 $db_user = 'root';
-$db_pass = '';
+$db_pass = 'password';
 
 
 try {
@@ -143,3 +143,4 @@ if ($request_method === 'DELETE' && $endpoint === 'api' && $checkUserId) {
         echo json_encode(['message' => 'Failed to delete person']);
     }
 }
+

@@ -239,6 +239,6 @@ If you encounter any issues, check the following:
 
 <pre>
 Name: Rilwanu Isyaku
-Email: <a href="mailto:ridwanishaq2020@gmail.com">ridwanishaq2020@gmail.com</a>
+Email: <a href="mailto:rilwanu@engineer.com">rilwanu@engineer.com</a>
 Role: Backend Engineer
 </pre>
