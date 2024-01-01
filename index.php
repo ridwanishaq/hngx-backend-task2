@@ -3,6 +3,7 @@
 /**
  * Task Name: backend-stage-two-task
  * Programming Lanuage used: PHP
+ * Database: MySQL
  * Student Name: Rilwanu Isyaku
  * GitHub Profile: https://github.com/ridwanishaq
  * Date: 14-September-2023
@@ -14,9 +15,9 @@
 
 // Database configuration
 $db_host = 'localhost';
-$db_name = 'hngx_task2';
-$db_user = 'root';
-$db_pass = 'password';
+$db_name = 'db_name_here';
+$db_user = 'db_username_here';
+$db_pass = 'db_password';
 
 
 try {
